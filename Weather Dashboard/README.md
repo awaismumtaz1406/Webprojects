@@ -1,76 +1,77 @@
-Weather Dashboard
+# Weather Dashboard
 
-A simple and interactive Weather Dashboard built with HTML, CSS, and JavaScript.
-This app uses the WeatherAPI
- to fetch real-time weather data for any city or country.
+A dynamic **weather dashboard web application** that displays current weather information and forecasts for any city.
 
-🚀 Features
+## ☁️ Project Overview
 
-Search weather by city or country
+The Weather Dashboard provides real-time weather data using a weather API. Users can search any city in the world and view current conditions like temperature, humidity, wind speed, and weather description.
 
-🌡️ Temperature in Celsius and Fahrenheit
+## 🌦️ Key Features
 
-☁️ Weather condition with icons
+- Search weather by **city name**
+- Shows **current weather**
+- (Optional) Display **5-day forecast**
+- Shows icons representing weather conditions
+- Responsive user interface
 
-💧 Humidity, 🌬️ Wind speed, 📊 Pressure, UV Index, and Visibility
+## 🛠️ Technologies Used
 
-🕒 Local time of the selected location
+- **HTML**
+- **CSS**
+- **JavaScript**
+- Fetch API to get weather data from a weather provider (e.g., OpenWeatherMap)
 
-Responsive, modern UI with card-style layout
+Refer to example dashboards like *Weather Dashboard apps built with JS* for structure ideas. :contentReference[oaicite:0]{index=0}
 
-📂 Project Structure
+## 📂 Folder Structure (example)
+
 weather-dashboard/
-│── index.html    # Main structure of the app
-│── styles.css    # Styling and layout
-│── script.js     # API integration and logic
-│── README.md     # Project documentation
-
-⚡ How It Works
-
-User enters a city or country in the search bar
-
-JavaScript fetches weather data from WeatherAPI
-
-Dashboard displays details like temperature, humidity, wind speed, and more
-
-🛠️ Technologies Used
-
-HTML5 → Structure
-
-CSS3 → Styling and responsive layout
-
-JavaScript (ES6) → Fetch API and DOM manipulation
-
-WeatherAPI → Real-time weather data
-
-🔑 Setup Instructions
-
-Clone this repository:
-
-git clone https://github.com/your-username/weather-dashboard.git
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 
 
-Open the project folder and add your WeatherAPI key in script.js:
+## 📥 How to Run
 
-const API_KEY = "your_api_key_here";
+1. Clone:
+   ```bash
+   git clone https://github.com/awaismumtaz1406/Webprojects.git
 
 
-Open index.html in your browser
+Change directory:
 
-Search for any city or country and see the results!
+cd Webprojects/weather-dashboard
 
-📸 Screenshot
 
-(You can add a screenshot of your project here once hosted)
+Open in browser:
 
-🌍 Live Demo
+open index.html
 
-If you deploy this project on GitHub Pages or Netlify, add the link here.
+🧩 API Setup
 
-🤝 Contribution
+This project uses the OpenWeatherMap API or similar to fetch weather data:
 
-Feel free to fork this repository, open issues, or submit pull requests. Suggestions and improvements are always welcome.
+Get an API key from OpenWeatherMap
 
-📜 License
+Replace placeholder in script.js:
 
-This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
+const API_KEY = "YOUR_OPENWEATHER_API_KEY";
+
+📌 Usage
+
+Enter a city name
+
+Click Search
+
+View current weather and forecast
+
+(Optional) Recent searches saved in local storage
+
+🙌 Future Enhancements
+
+Add local storage search history
+
+Add units toggle (°C / °F)
+
+Add autocomplete search
