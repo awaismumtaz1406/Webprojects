@@ -1,0 +1,329 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.nav {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.text {
+    margin-left: auto;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 0 20px;
+}
+
+.nav2 {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav3{
+    height: 65px;
+    width: 7%;
+    color: wheat;
+}
+
+.text2 {
+    font-size: 14px;
+    padding: 0 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 7px;
+    word-spacing: px;
+}
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav2 :hover{
+   color: rgb(199, 46, 0);
+}
+.div1{
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 .textdiv1{
+    color: white;
+    font-size: large;
+
+}
+.nav a,
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:hover,
+.nav a:hover {
+    color: rgb(199, 46, 0);
+}
+
+.para{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    margin-top: -50px;
+
+}
+.imgdiv1{
+    height: 450px;
+    width: 45%;
+    background-color: rgb(59, 59, 58);
+    float: left;
+    
+}
+
+.imgdiv3{
+    height: 450px;
+    width: 45%;
+    background-color: rgb(59, 59, 58);
+    float: right;
+}
+
+.imgdiv2{
+    height: 450px;
+    width: 45%;
+    background-color: rgb(59, 59, 58);
+    float: center;
+}
+.maintext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 0 10px;
+    font-weight: bold;
+}
+button {
+    background-color: rgb(59, 59, 58);
+    color: rgb(221, 140, 64);
+    padding: 12px 25px;
+    border-color:rgb(221, 140, 64);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: rgb(221, 140, 64);
+    color: white;
+}
+
+.image1{
+    background-image: url(https://wallpapercave.com/wp/wp3700978.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+
+}
+.image1text{
+    font-size: 45px ;
+    -webkit-text-stroke: 1px rgb(221, 140, 64);
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:  80px;
+}
+.image1text2{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 80px;
+    margin-top: -80px;
+}
+.btn1 {
+    background-color: rgb(59, 59, 58);
+    color: rgb(221, 140, 64);
+    padding: 12px 25px;
+    border-color:rgb(221, 140, 64);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+
+ .btn1:hover {
+    background-color: rgb(221, 140, 64);
+    color: white;
+}
+
+.main1{
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    margin-top: 20px;
+}
+.pic1{
+    height: 450px;
+    width: 25%;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.pic2{
+    height: 450px;
+    width: 25%;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;  
+}
+
+.pic3{
+    height: 450px;
+    width: 25%;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;  
+}
+
+.pic4{
+    height: 450px;
+    width: 25%;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.maintext1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 0 10px;
+}
+span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pic1 button,
+.pic2 button,
+.pic3 button,
+.pic4 button {
+    margin-top: auto;
+    align-items: center;
+    margin-right: auto;
+}
+
+.career{
+    background-image: url(https://eu-images.contentstack.com/v3/assets/bltf7171cc1cfc1a31f/blta9671bac421ef0c2/6914890fbbca1b7c5e42b4c0/careers52419.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -50px;
+    opacity: 0.7;
+    
+}
+.careertext{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 0 80px
+}
+.btn2 {
+    background-color: transparent;
+    color: rgb(221, 140, 64);
+    border-color:rgb(221, 140, 64);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 80px;
+    width: 130px;
+    height: 50px;   
+}
+
+.btn2:hover {
+    color: white;
+}
+
+.btn3 {
+    background-color: transparent;
+    color: rgb(221, 140, 64);
+    border-color:rgb(221, 140, 64);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 80px;
+    width: 160px;
+    height: 50px;   
+}
+.btn2:hover {
+    color: white;
+}
+
+.responsive-iframe{
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(56, 55, 55);
+    color: rgb(110, 107, 107);
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    padding: 100px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    font-size: 12px;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column a{
+    color: white;
+    text-decoration: none;
+}
+.footer-column a:hover{
+    color: rgb(221, 140, 64);
+    transition: 0.3s;
+}

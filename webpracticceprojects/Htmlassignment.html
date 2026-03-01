@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kiki's Bake Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*Basic reset*/
+        *{
+            margin:0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Nav Bar*/
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:plum ;
+            padding: 15px 30px;
+        }
+
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+
+        .menu{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .menu1{
+            text-decoration: none;
+            color: lightyellow;
+            font-weight: bold;
+        }
+
+        /*Main Section*/
+        .main{
+            position: relative;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color:plum ;
+        }
+
+        .main img{
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .main content h1 {
+            font-size: 40px;
+        }
+        
+        .hehe{
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: fixed;
+            color: plum;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /*Info Section*/
+        .info-container{
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            gap: 30px;
+        }
+
+        .info-container img{
+            width: 400px;
+            border-radius: 10px;
+        }
+         
+        .info{
+            display: inline-block;
+            margin-top:10px;
+            padding: 10px 20px ;
+            background: fixed;
+            color: plum;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /*Marquee*/
+        .marquee img{
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        /*About*/
+        .about-container{
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            gap: 30px;
+        }
+
+        .about-container img{
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        /*Footer*/
+        .footer{
+            background: fixed;
+            color: plum;
+            padding: 30px;
+        }
+
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer box{
+            width: 200px;
+        }
+
+        .footer-box ul{
+            list-style: none;
+        }
+
+        .footer-box a{
+            color: plum;
+            text-decoration: none;
+        }
+
+        .footer bottom{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+
+        <!--Nav Bar-->
+        <nav class="navbar">
+        <div class="logo">Kiki's Bake Shop</div>
+        <ol class="menu">
+            <li>Homie</li>
+            <li>Product</li>
+            <br><br>
+            <li>About</li>
+            <li>Contact</li>
+        </ol>    
+        </nav>
+    </header>
+    <!--Main Section-->
+    <section class="1">
+        <img src="https://t4.ftcdn.net/jpg/10/62/39/77/360_F_1062397713_a4Daqiki42JCL2a3htOR7xxNKxQ8N3qA.jpg" width="1500" height="900">
+        <div class="main content">
+            <h1 class="animate_ _ _animated
+            animated_zoomIn
+            animated_infinite">..Order Now..</h1>
+        </div>
+        <h1>Kiki's Bake Shop</h1>
+        <p>Freshly Baked with Love</p>
+        <a href="#" class="hehe">Order Now</a>
+        </div>
+    </section>
+    <!--Info Section-->
+    <section class="info-sectin">
+        <div class="info-container">
+
+            <div class="info img"><img src="https://www.shutterstock.com/shutterstock/photos/379641094/display_1500/stock-vector-cute-bakery-clip-art-set-with-yummy-cookies-biscuits-bread-toast-milk-wheat-eggs-in-vector-379641094.jpg" width="200px"> </div>
+            <div class="info-text">
+                <h2>Deliciuos Cakes & Treats</h2>
+                <p>We bake fresh cakes, cupcakes, cookies and pastries daily using premium ingredients and lots of love.
+                </p>
+                <a href="#" class="info"></a>
+            </div>
+        </div>
+    </section>
+    <!--Marquee-->
+    <section style="background: fixed;">
+        <marquee class="marquee img">
+            <img src="https://i.pinimg.com/736x/8a/f1/67/8af167c6718e05d03e3b001fb1ac65a3.jpg" width="250px">
+            <img src="https://www.shutterstock.com/image-vector/decadent-chocolate-cake-topped-glaze-260nw-2733591553.jpg" width="250">
+            <img src="https://i.pinimg.com/736x/91/c9/d0/91c9d0eb0e4d04c31b2034b39e2ae7c1.jpg" width="250">
+            <img src="https://www.shutterstock.com/image-vector/set-cartoon-donuts-pink-blue-600nw-2654630825.jpg" width="250" height="153">
+            <img src="https://www.freepik.com/premium-vector/set-cookie-biscuit-doodles_2112856.htm" width="250">
+            <img src="https://i.pinimg.com/1200x/4e/76/43/4e76437310540cd93e6ab328870a5802.jpg" width="250">
+        </marquee>
+    </section>
+    <!--About-->
+    <section class="about section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Kiki's Bake Shop</h2>
+                <p>Kiki's Bake Shop is a cozy bakery where every treat is handmade with care.Our mission is to bring happiness through sweet flavors..</p>
+                <a href="#" class="info">Learn More</a>
+            </div>
+            <div class="about-img"> <img src="https://img.freepik.com/premium-vector/bakery-products-drawn-style-doodle_313437-397.jpg?w=360" alt=""></div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box"><h2>Kiki's Bake Shop</h2>
+            <p>Fresh cakes, cupcakes, cookies and more.</p></div>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </div>
+
+        <div class="footer-box">
+            <h3>Products</h3>
+            <ol>
+                <li><a href="#">Cakes</a></li>
+                 <li><a href="#">Cupcakes</a></li>
+                  <li><a href="#">Donuts</a></li>
+                   <li><a href="#">Pastries</a></li>
+                    <li><a href="#">Cookies</a></li>
+            </ol>
+        </div>
+
+        <div class="footer-bottom">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d217709.09977057422!2d74.3650818!3d31.5048002!3m2!1i1024!2i768!4f13.1!2m1!1slayers%20bakery%20lahore!5e0!3m2!1sen!2s!4v1771601183523!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
