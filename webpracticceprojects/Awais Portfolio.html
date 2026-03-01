@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awais Portfolio</title>
+    <style>
+      body {
+        background: #0f172a;
+        color: #e5e7eb;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+      }
+
+      a {
+        color: #38bdf8;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      a:hover {
+        color: #0ea5e9;
+      }
+
+      .container {
+        background: linear-gradient(90deg, #020617, #0f172a);
+        height: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      }
+
+      .left {
+        width: 60%;
+        display: flex;
+        align-items: center;
+      }
+      .left1 {
+        width: 30%;
+      }
+      .left2 {
+        width: 70%;
+      }
+
+      .left2 h1 {
+        color: #38bdf8;
+      }
+
+      .right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0 25px;
+      }
+
+      .btn {
+        padding: 8px 16px;
+       
+    display: inline-flex;   /* not block */
+    width: auto;            /* prevents stretching */
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;    
+        border: 1px solid #38bdf8;
+        border-radius: 20px;
+        color: #e5e7eb;
+        transition: 0.3s;
+        font-size: 14px;
+      }
+
+      /* .btn:hover{
+            background:#38bdf8;
+            color:#020617;
+            transform:translateY(-2px);
+        } */
+
+      .container2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+      }
+
+      .midleft1,
+      .midright1 {
+        width: 50%;
+        padding: 20px;
+      }
+
+      .midleftchild,
+      .midrightchild {
+        background: #020617;
+        padding: 20px;
+        border-radius: 14px;
+        box-shadow: 0 0 15px rgba(56, 189, 248, 0.08);
+      }
+
+      .img {
+        margin-top: 20px;
+      }
+
+      .container3 {
+        width: 100%;
+        padding: 30px;
+      }
+
+      .project-box {
+        background: #020617;
+        padding: 20px;
+        border-radius: 14px;
+        margin-top: 20px;
+        box-shadow: 0 0 15px rgba(56, 189, 248, 0.08);
+        transition: 0.3s;
+      }
+
+      .project-box:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
+      }
+
+      .bookmarks {
+        background: #020617;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 14px;
+      }
+
+      .bookmark-links a {
+        display: inline-block;
+        margin: 8px;
+        padding: 8px 16px;
+        border: 1px solid #38bdf8;
+        border-radius: 18px;
+        transition: 0.3s;
+        font-size: 14px;
+      }
+
+      .bookmark-links a:hover {
+        background: #38bdf8;
+        color: #020617;
+        transform: scale(1.05);
+      }
+
+      .foot {
+        margin-top: 40px;
+        height: 220px;
+        width: 100%;
+        background: #020617;
+        display: flex;
+        padding: 20px;
+      }
+
+      .foot1 {
+        width: 40%;
+        text-align: center;
+      }
+      .foot2 {
+        width: 60%;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left1">
+          <img src="./malikawais.png" height="120" width="110" />
+        </div>
+        <div class="left2">
+          <h1>Welcome to Site (Awais Mumtaz)</h1>
+        </div>
+      </div>
+
+      <div class="right">
+        <a class="btn" href="mailto:awaismumtaz@email.com">Email</a>
+        <a class="btn" href="tel:+923288421580">Phone</a>
+        <a
+          class="btn"
+          href="https://linkedin.com/in/awaismumtaz"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </div>
+
+    <section class="bookmarks">
+      <h2>Quick Bookmarks</h2>
+      <div class="bookmark-links">
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="https://github.com/awaismumtaz1406" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/awaismumtaz" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <section>
+      <div class="container2">
+        <div class="midleft1">
+          <div class="midleftchild">
+            <h3 class="btn">About Me</h3>
+            <p>
+              Motivated software engineering student with a strong foundation in
+              programming, databases, and .Passionate about solving real-world
+              problems through logical thinking and building impactful software
+              solutions. i build real world projects to enhance my skills and
+              contribute to the tech community. So far, I have built a fitness
+              app using Python and Tkinter, and several web projects using HTML,
+              CSS, and JavaScript. I am excited for building new problamitic
+              solutions projects. i build real world projects to enhance my
+              projects to enhance my skills and contribute to the tech
+              community.
+            </p>
+            <h3 class="btn">Skills</h3>
+            <ul>
+              <li><b>Programming Languages:</b> Java, Python, C++</li>
+              <li><b>Web Development:</b> HTML, CSS</li>
+              <li><b>Database Management:</b> MySQL, SQL Server</li>
+              <li>
+                <b>Frameworks & Tools:</b> Java Swing, Bootstrap, IntelliJ IDEA,
+                VS Code, SSMS, Git
+              </li>
+              <li>
+                <b>Communication:</b> Strong verbal and written communication
+                skills
+              </li>
+              <li>
+                <b>Problem Solving:</b> Analytical and structured thinking
+              </li>
+              <li>
+                <b>Frameworks & Tools:</b> Java Swing, Bootstrap, IntelliJ IDEA,
+                VS Code, SSMS, Git
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="midright1">
+          <div class="midrightchild">
+            <h3 class="btn">Services Offered</h3>
+
+            <h3>Full Stack Python Application</h3>
+            <ul>
+              <li>Desktop applications using Python and Tkinter</li>
+              <li>
+                GUI-based systems for fitness, medical, and management solutions
+              </li>
+              <li>BMI, calorie, and health metric calculations</li>
+              <li>Session-based data handling and user tracking</li>
+              <li>Database integration using MySQL / SQLite</li>
+                <li>REST API development and integration</li>
+              <li>Authentication and role-based access control</li>
+            </ul>
+
+            <h3 class="btn">Full Stack Web Application</h3>
+            <ul>
+              <li>Responsive frontend using HTML, CSS, and JavaScript</li>
+              <li>Backend development with Python (Flask / Django)</li>
+                <li>React and Node.js</li>
+              <li>End to end web application development</li>
+              <li>On page SEO</li>
+              <li>Database design and optimization</li>
+
+              <li>REST API development and integration</li>
+              <li>User authentication and session management</li>
+              <li>Admin dashboards and analytics panels</li>
+              <li>Database design and optimization</li>
+              <li>Deployment and hosting setup</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container3">
+      <h2 class="btn">Projects</h2>
+
+      <div class="project-box">
+        <h3 class="btn">Web Projects</h3>
+        <p>
+          <a
+            href="https://github.com/awaismumtaz1406/Webprojects.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+          | July 2025 - August 2025
+        </p>
+        <ul>
+          <li>
+            <b>News Dashboard</b> HTML, CSS, API Integration : Made dashborad
+            that fetch real time tech with the help of news Api
+          </li>
+          <li>
+            <b>Weather Dashboard</b> HTML, CSS, API Integration : Made dashborad
+            that fetch real time tech with the help of weather Api
+          </li>
+          <li>
+            <b>Currency Converter</b> HTML, CSS, JavaScript, API Integration :
+            Made dashborad that fetch real time tech with the help of currecny
+            converter Api
+          </li>
+        </ul>
+        
+          <a class="btn"
+          href="https://github.com/awaismumtaz1406/Webprojects.git"
+          target="_blank"
+          >View Project</a
+        >
+      </div>
+
+      <div class="project-box">
+        <h3 class="btn">Fitness App (Python)</h3>
+        <p>
+          <a href="https://github.com/awaismumtaz1406/Python.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+          | Nov 2025 - Dec 2025
+        </p>
+        <ul>
+          <li>
+            <b>Fitness App</b> Python, Tkinter, MySQL : Made a fitness app that
+            calculate BMI, calories and other health metrics and also store data
+            in database
+          </li>
+          <li>
+            <b>Session Management</b> Python, Tkinter : Implemented session
+            management to track user interactions and data across different
+            screens
+          </li>
+          <li><b>Database Integration</b> Python, MySQL : Integrated MySQL</li>
+        </ul>
+        <a
+          class="btn"
+          href="https://github.com/awaismumtaz1406/Python.git"
+          target="_blank"
+          >View Project</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div class="foot1">
+          <p>© All Rights Reserved</p>
+          <div class="signature">Awais Mumtaz</div>
+        </div>
+        <div class="foot2">
+          <table>
+            <tr>
+              <th>
+                <a href="https://linkedin.com/in/awaismumtaz" target="_blank"
+                  ><img src="./linkdinlogo.png" width="30"
+                /></a>
+              </th>
+
+              <th>
+                <a href="https://github.com/awaismumtaz1406" target="_blank"
+                  ><img src="./fb.png" width="30"
+                /></a>
+              </th>
+              <th>
+                <a href="#" target="_blank"
+                  ><img src="./githublogo.png" width="50"
+                /></a>
+              </th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.",
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
